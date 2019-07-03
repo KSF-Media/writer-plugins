@@ -17,3 +17,6 @@ Build a dist-folder by running
 yarn build
 ```
 
+### Docs about plugin development
+
+http://docs.writer.infomaker.io/
