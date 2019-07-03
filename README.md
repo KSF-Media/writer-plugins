@@ -18,6 +18,8 @@ Build a dist-folder by running
 yarn build
 ```
 
-### Docs about plugin development
+### Plugin development
+**Creating a new plugin:** Add a new folder `plugins/fi.ksfmedia.plugin-name`. See the very basic plugin sample-plugin for example.
 
+### Docs about plugin development
 http://docs.writer.infomaker.io/
