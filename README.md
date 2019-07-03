@@ -11,6 +11,7 @@ Start a webpack development server running at [http://localhost:5001](localhost:
 ```
 yarn start
 ```
+(All plugins resources will be available at https://localhost:5001/plugin-name.js and https://localhost:5001/plugin-name.css.)
 
 Build a dist-folder by running
 ```
