@@ -53,7 +53,7 @@ module.exports = {
                         options: {
                             modules: false,
                             importLoaders: 1,
-                            sourceMap: true
+                            sourceMap: false
                         }
                     },
                     {
