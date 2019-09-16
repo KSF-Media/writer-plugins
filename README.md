@@ -1,5 +1,5 @@
 ## KSF Media plugins for Writer
-(fork of https://github.com/Infomaker/NPWriterPluginBundle)
+(based on https://github.com/Infomaker/NPWriterPluginBundle)
 
 ### Get started
 Install dependencies
