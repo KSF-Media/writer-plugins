@@ -12,7 +12,7 @@ class PollTool extends Tool {
             .addClass('se-tool')
             .append($$('i').addClass('fa fa-question'))
             .on('click', () => {
-                this.executeCommand('pollembed')
+                this.executeCommand('pollselect')
             });
 
         return el    

@@ -1,7 +1,7 @@
 import {WriterCommand} from 'writer'
 import OpenEmbedDialog from '../openEmbedDialog'
 
-class PollEmbedCommand extends WriterCommand {
+class PollSelectCommand extends WriterCommand {
     getCommandState() {
         return {
             disabled: false
@@ -14,4 +14,4 @@ class PollEmbedCommand extends WriterCommand {
     }
 }
 
-export {PollEmbedCommand}
+export {PollSelectCommand}

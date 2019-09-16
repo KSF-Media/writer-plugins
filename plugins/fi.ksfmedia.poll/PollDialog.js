@@ -1,4 +1,5 @@
 import {Component} from 'substance'
+import {api} from 'writer'
 
 export default class PollDialog extends Component {
     render($$) {
@@ -7,14 +8,25 @@ export default class PollDialog extends Component {
             .append($$('h1').append(this.getLabel('ksf-embed-poll')))
             .append(this.pollTable($$, this.props.data))
     }
+    insertPollNode(id){
+        api.editorSession.executeCommand('insertpollnode', {
+            id: id
+        })
+        console.log('Inserting poll id: ', id)
+    }
     pollTable($$, data){
         const list = data.map(
-            poll => $$('li').append($$('button').append(poll.question))
+            poll => $$('li')
+                .append($$('button')
+                .on('click', () => {
+                    this.insertPollNode(poll.id)
+                })
+                .append(poll.question))
         )
         return $$('div')
             .append($$('ul').append(list))
     }
     onClose(action) {
-        // save or close
+        // console.log('PollDialog closed. Action: ', action, "props: ", this.props)
     }
 }

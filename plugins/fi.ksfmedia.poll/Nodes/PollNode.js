@@ -1,15 +1,11 @@
 import {BlockNode} from 'substance'
 
-class PollNode extends BlockNode {
+class PollNode extends BlockNode {}
 
-}
-
+PollNode.type = 'ksf-pollembed'
 PollNode.define({
-    type: 'pollembed',
-    id: { type: 'string'},
-    dataType: 'string',
-    format: 'string',
-    text: {type: 'string', optional: true}
+    'pollId': {type: 'number'},
+    'pollBody': {type: 'string', optional: true}
 })
 
 export default PollNode
