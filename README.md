@@ -18,8 +18,10 @@ Build a dist-folder by running
 yarn build
 ```
 
+
 ### Plugin development
-**Creating a new plugin:** Add a new folder `plugins/fi.ksfmedia.plugin-name`. See the very basic plugin sample-plugin for example.
+**Creating a new plugin:** Add a new folder `plugins/fi.ksfmedia.plugin-name`. See the very basic plugin sample-plugin for example. See docs at bottom.
+
 
 ### Plugin testing locally
 Launch the staging writer. https://writer.stage.ksf.infomaker.io/
@@ -39,6 +41,7 @@ The **Name** field should contain the plugin name, exactly as defined in the plu
 Select enabled and Apply.
 
 The plugin will be enabled **on your browser**, saved in local storage. If you break something horribly, just clear the stuff from your browsers local storage. If you break something _slightly_ you can reset default configurations from the Configuration test tool.
+
 
 ### Docs about writer and plugin development
 http://docs.writer.infomaker.io/
