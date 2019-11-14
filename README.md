@@ -38,6 +38,8 @@ The **Name** field should contain the plugin name, exactly as defined in the plu
 
 Select enabled and Apply.
 
+The plugin will be enabled **on your browser**, saved in local storage. If you break something horribly, just clear the stuff from your browsers local storage. If you break something _slightly_ you can reset default configurations from the Configuration test tool.
+
 ### Docs about writer and plugin development
 http://docs.writer.infomaker.io/
 
