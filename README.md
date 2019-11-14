@@ -24,17 +24,17 @@ yarn build
 ### Plugin testing locally
 Launch the staging writer. https://writer.stage.ksf.infomaker.io/
 
-Press `crl/cmd + shift + y` to open the *Configuration test tool*.
+Press `crl/cmd + shift + y` to open the **Configuration test tool**.
 
-Press the *+* icon.
+Press the **+** icon.
 
-In the *id* field, add the plugins id. Infomaker uses a reverse domain notation, like `se.infomaker.someplugin`. Don't know if it's required, but lets follow the same practice: `fi.ksfmedia.someplugin`.
+In the **id** field, add the plugins id. Infomaker uses a reverse domain notation, like `se.infomaker.someplugin`. Don't know if it's required, but lets follow the same practice: `fi.ksfmedia.someplugin`.
 
-The *Name* field should contain the plugin name, exactly as defined in its Package file.
+The **Name** field should contain the plugin name, exactly as defined in the plugins Package file.
 
-*Plugin src url* is the url to your plugins js file in the dist folder.
+**Plugin src url** is the url to your plugins js file in the dist folder.
 
-*Plugin css url* is the url to your plugins css file in the dist folder.
+**Plugin css url** is the url to your plugins css file in the dist folder.
 
 Select enabled and Apply.
 
