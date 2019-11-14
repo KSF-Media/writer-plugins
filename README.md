@@ -40,4 +40,5 @@ Select enabled and Apply.
 
 ### Docs about writer and plugin development
 http://docs.writer.infomaker.io/
+
 https://infomaker.github.io/NPWriterDevelopers/guides/
