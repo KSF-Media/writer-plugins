@@ -21,5 +21,6 @@ yarn build
 ### Plugin development
 **Creating a new plugin:** Add a new folder `plugins/fi.ksfmedia.plugin-name`. See the very basic plugin sample-plugin for example.
 
-### Docs about plugin development
+### Docs about writer and plugin development
 http://docs.writer.infomaker.io/
+https://infomaker.github.io/NPWriterDevelopers/guides/
