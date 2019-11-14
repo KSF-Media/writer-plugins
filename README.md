@@ -26,7 +26,7 @@ yarn build
 ### Plugin testing locally
 Launch the staging writer. https://writer.stage.ksf.infomaker.io/
 
-Press `crl/cmd + shift + y` to open the **Configuration test tool**.
+Press `ctrl/cmd + shift + y` to open the **Configuration test tool**.
 
 Press the **+** icon.
 
